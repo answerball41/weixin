@@ -1,0 +1,37 @@
+{
+  "pages":[
+    "pages/life/life",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "navigationBarBackgroundColor":"#8055ab",
+    "navigationBarTextStyle":"black",
+    "navigationBarTitleText":"熊熊的记事本",
+    "backgroundTextStyle":"dark",
+    "enablePullDownRefresh":"true"
+  },
+  "tabBar":{
+      "color":"black",
+      "selectedColor":"red",
+      "backgroundColor":"#8055ab",
+      "list":[
+        {
+          "pagePath":"pages/life/life",
+          "text":"生活"
+        },
+        {
+          "pagePath": "pages/index/index",
+          "text": "生活"
+        },
+        {
+          "pagePath": "pages/index/index",
+          "text": "今日待办"
+        }
+      ],
+      "position":"bottom"
+    },
+    "networkTimeout":{
+      
+    }
+}

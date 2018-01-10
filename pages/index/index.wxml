@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view class="my-body">
+  <view class='my-time'>
+    <text>{{motto}}  {{userInfo.nickName}}</text>
+  </view>
+</view>

@@ -1,0 +1,5 @@
+<view class="life-body">
+  <view>当前日期：{{localDate}}</view>
+  <view>登录人：{{userInfo.nickName}}</view>
+  <view>待办事项：{{eventName}}</view>
+</view>
