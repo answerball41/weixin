@@ -1,5 +1,32 @@
-<view class="life-body">
-  <view>当前日期：{{localDate}}</view>
-  <view>登录人：{{userInfo.nickName}}</view>
-  <view>待办事项：{{eventName}}</view>
+<view class="container">
+  <view class="top">
+    <input type='text' placeholder='输入关键字' class="search-input"></input>
+    <icon type='search' size="18"></icon>
+  </view>
+  <view class='content-container'>
+    <view class='content-container-block'>
+      <view>办理时间：{{localDate}}</view>
+      <view>经办人：{{userInfo.nickName}}</view>
+      <view>受理人：{{userInfo.nickName}}</view>
+      <view>待办事项概况：{{eventName}}</view>
+    </view>
+    <view class='content-container-block'>
+      <view>办理时间：{{localDate}}</view>
+      <view>经办人：{{userInfo.nickName}}</view>
+      <view>受理人：{{userInfo.nickName}}</view>
+      <view>待办事项概况：{{eventName}}</view>
+    </view>
+    <view class='content-container-block'>
+      <view>办理时间：{{localDate}}</view>
+      <view>经办人：{{userInfo.nickName}}</view>
+      <view>受理人：{{userInfo.nickName}}</view>
+      <view>待办事项概况：{{eventName}}</view>
+    </view>
+    <view class='content-container-block'>
+      <view>办理时间：{{localDate}}</view>
+      <view>经办人：{{userInfo.nickName}}</view>
+      <view>受理人：{{userInfo.nickName}}</view>
+      <view>待办事项概况：{{eventName}}</view>
+    </view>
+  </view>
 </view>

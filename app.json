@@ -7,26 +7,38 @@
   "window":{
     "navigationBarBackgroundColor":"#8055ab",
     "navigationBarTextStyle":"black",
-    "navigationBarTitleText":"熊熊的记事本",
+    "navigationBarTitleText":"熊熊的随身笔记本",
     "backgroundTextStyle":"dark",
-    "enablePullDownRefresh":"true"
+    "enablePullDownRefresh":false
   },
   "tabBar":{
-      "color":"black",
-      "selectedColor":"red",
+      "color":"#fff",
+      "selectedColor":"#000",
       "backgroundColor":"#8055ab",
       "list":[
         {
           "pagePath":"pages/life/life",
-          "text":"生活"
+          "text":"生活",
+          "iconPath": "resources/img/ycoff.jpg",
+          "selectedIconPath": "resources/img/ycon.jpg"
         },
         {
           "pagePath": "pages/index/index",
-          "text": "生活"
+          "text": "工作",
+          "iconPath": "resources/img/ycoff.jpg",
+          "selectedIconPath": "resources/img/ycon.jpg"
         },
         {
           "pagePath": "pages/index/index",
-          "text": "今日待办"
+          "text": "记事本",
+          "iconPath": "resources/img/ycoff.jpg",
+          "selectedIconPath": "resources/img/ycon.jpg"
+        },
+        {
+          "pagePath": "pages/index/index",
+          "text": "今日待办",
+          "iconPath": "resources/img/ycoff.jpg",
+          "selectedIconPath": "resources/img/ycon.jpg"
         }
       ],
       "position":"bottom"
